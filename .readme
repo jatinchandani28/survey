@@ -1,2 +1,14 @@
 postman collection
 https://www.getpostman.com/collections/9caadf79adb339b5956d
+
+survey-node-app
+
+Get Started :- 
+Install dependencies.
+npm install
+Verify the Database configuration in config/config.json.
+Run migrations on the main database.
+npx sequelize-cli db:migrate
+Start the application.
+npm start
+Perform API requests.
